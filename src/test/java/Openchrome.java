@@ -9,4 +9,5 @@ public class Openchrome {
         driver.get("https://duckduckgo.com/");
        // driver.navigate("https://www.google.com/ncr");
     }
+
 }
