@@ -2,7 +2,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class Openchrome {
+public class OpenChrome {
     /**
      * Open Google Chrome
      * Navigate to [https://duckduckgo.com/]
