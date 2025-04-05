@@ -2,11 +2,24 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class Openchrome {
+public class OpenChrome {
+    /**
+     * Open Google Chrome
+     * Navigate to [https://duckduckgo.com/]
+     * Assert that the page title is [Google]
+     * Close Google Chrome
+     *
+     */
+
+
     @Test
+
     public void openchrome(){
         WebDriver driver = new ChromeDriver();
         driver.get("https://duckduckgo.com/");
-       // driver.navigate("https://www.google.com/ncr");
-    }
+        driver.getTitle();
+     //   assert driver.getTitle().equals("Google");
+
+        driver.quit();    }
+
 }
